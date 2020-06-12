@@ -1,0 +1,36 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta charset="UTF-8">
+		<title>OpenSAP - Developing Web Apps with SAPUI5</title>
+		<script
+			id="sap-ui-bootstrap"
+			src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+			data-sap-ui-theme="sap_belize"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-compatVersion="edge"
+			data-sap-ui-preload="async"
+			data-sap-ui-resourceroots='{"sapui5": "./"}'>
+		</script>
+		<script>
+			sap.ui.getCore().attachInit(function () {
+/*				var oImage = new sap.m.Image({
+					src: "https://sm.ign.com/t/ign_latam/screenshot/default/naruto4_st6s.1280.jpg"
+				}).placeAt("content");
+				oImage.setHeight("400px");
+			});*/
+			
+/*			sap.ui.xmlview({
+				viewName: "sapui5.view.App"
+			}).placeAt("content");*/
+			
+			new sap.ui.core.ComponentContainer({
+				name : "sapui5"
+			}).placeAt("content");
+		});
+		</script>
+	</head>
+	<body class="sapUiBody" id="content">
+	</body>
+</html>

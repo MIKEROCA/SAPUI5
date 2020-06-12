@@ -1,0 +1,1 @@
+{"type":"sap.web","builders":{"configs":{}},"runners":{"configs":{}},"attributes":{"sap.watt.common.setting":["{\"mockpreview\":{\"mockUri\":\"/destinations/ES5/sap/opu/odata/IWBEP/GWSAMPLE_BASIC/\",\"metadataFilePath\":\"\",\"mockRequestsFilePath\":\"\",\"loadJSONFiles\":false,\"loadCustomRequests\":false}}"]},"mixinTypes":[]}
